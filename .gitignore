@@ -1,0 +1,28 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# build
+/dist
+*.tsbuildinfo
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# The mailbox tokens. Committing this hands someone the ability to read and
+# send mail as the user, which is strictly worse than leaking an API key —
+# a key can be rotated without anyone having read the inbox first.
+/.cvitae-mail
+
+# Local Netlify folder
+.netlify
